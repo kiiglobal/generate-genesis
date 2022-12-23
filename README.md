@@ -89,3 +89,18 @@ Pubkey:         040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb
 Coins:          5000000000
 Psz:            'Wired 09/Jan/2014 The Grand Experiment Goes Live: Overstock.com Is Now Accepting Bitcoins'
 ```
+
+### Kii (x11)
+
+```shell
+$ ./generate-genesis -algo x11 -bits 1e0ffff0 -coins 30000000000 -psz "DEC22 Evereything all the time JCC LSF DA AC JAC" -pubkey "04418ffccd8e9fccf614b18ab513d7c809e2e4993717c582f9baf6c543a5f7e0b9fbdc0a76744220fcc13b356f07dbdb2e4cfa6e2b1036828b6f1e769b03975551" -timestamp 1671717809 -nonce 5625448
+Ctrl Hash:      0x0000095162a5962e3713620a40c646e14bd2a9833fcfbbfe2f64512b44629a7f
+Target:         0x00000ffff0000000000000000000000000000000000000000000000000000000
+Blk Hash:       0x0000095162a5962e3713620a40c646e14bd2a9833fcfbbfe2f64512b44629a7f
+Mkl Hash:       0x7802f00d2f1ed605e5fdbe299c4014948d82059860ea49a0637204e0ca9ee898
+Nonce:          9157839
+Timestamp:      1671717809
+Pubkey:         04418ffccd8e9fccf614b18ab513d7c809e2e4993717c582f9baf6c543a5f7e0b9fbdc0a76744220fcc13b356f07dbdb2e4cfa6e2b1036828b6f1e769b03975551
+Coins:          30000000000
+Psz:            'DEC22 Evereything all the time JCC LSF DA AC JAC'
+```
